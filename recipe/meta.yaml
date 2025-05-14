@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trame_vtklocal-{{ version }}.tar.gz
-  sha256: 5dd5a0887a443fe66e46cca97c0736efa9d66a747601799fd00957e61e5614c3
+  sha256: 30e27615b9af0fa123a848ae816024fff913ca844ff33455cb91c8b24de3e4a4
 
 build:
   noarch: python
