@@ -1,5 +1,5 @@
 {% set name = "trame-vtklocal" %}
-{% set version = "0.13.2" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/trame_vtklocal-{{ version }}.tar.gz
-  sha256: e2fb42eba74a7dc45e95bcb4ed920626a7779184a888994bb459a97f1621881e
+  sha256: 57ceb56e011c0bddb29a3a7198d8e069eab13341623fc3f342272bdfa07fe4a4
 
 build:
   noarch: python
